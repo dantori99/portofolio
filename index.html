@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/50aa58b887.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Portofolio</title>
+  </head>
+  <body class="body-light">
+    <nav class="nav">
+      <button class="toggle-mode" onclick="toggle()">Dark Mode</button>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="fullscreen first-page">
+      <h1 class="title">Hi, I'm Daniel</h1>
+      <h3 class="subtitle">Welcome to my website!</h3>
+    </div>
+    <div class="second-wrapper">
+      <div class="section-title">
+        <h1 class="light-theme--text" id="about">About me</h1>
+      </div>
+      <div class="halfscreen second-page">
+        <div class="left">
+          <img src="foto.jpg" class="about-photo" />
+        </div>
+        <div class="right">
+          <div class="card white--card">
+            <p>
+              I am 22 years old boi from East Karawang. I have been a fans of tech since I was a lil' boy. Now I start
+              to learn programming languages under a program that Glints Academy held. And hopefully by this simple
+              Portofolio website, They might consider me as one of the best to also get into a 4 months intensive learning
+              program. I will do my best and I will study hard! 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="third-wrapper light-theme--card">
+      <div class="section-title">
+        <h1 class="black--text">Education & <span class="white--text">Experience</span></h1>
+      </div>
+      <div class="halfscreen third-page crimson--text">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-logo">
+              <i class="fas fa-building"></i>
+            </div>
+            <div class="card-text">
+              <div class="card-text--section underlined--text">
+                PT. Grand Musica
+              </div>
+              <ul class="card-text--section-child">
+                Barista (2017 - 2018)
+              </ul>
+              <div class="card-text--section underlined--text">
+                Owning a food court
+              </div>
+              <ul class="card-text--section-child">
+                3 Years of experience (2018 - 2021)
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="card-logo">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="card-text">
+              <div class="card-text--section underlined--text">Full Name</div>
+              <ul class="card-text--section-child">
+                Daniel Togar Harianja
+              </ul>
+              <div class="card-text--section underlined--text">
+                Date of Birth
+              </div>
+              <ul class="card-text--section-child">
+                Denpasar, 29th of June 1999
+              </ul>
+              <div class="card-text--section underlined--text">Location</div>
+              <ul class="card-text--section-child">
+                Karawang, West Java, Indonesia
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="card-logo">
+              <i class="fas fa-building"></i>
+            </div>
+            <div class="card-text">
+              <div class="card-text--section underlined--text">
+                Elementary School
+              </div>
+              <ul class="card-text--section-child">
+                <li>Education 21</li>
+                <li>Dharma Yudha</li>
+                <li>SD Negri 149 Pekanbaru</li>
+              </ul>
+              <div class="card-text--section underlined--text">
+                Junior High School
+              </div>
+              <ul class="card-text--section-child">
+                <li>SMP Negri 6 Pekanbaru</li>
+                <li>SMP Negri 1 Siak Hulu</li>
+              </ul>
+              <div class="card-text--section underlined--text">
+                Senior High School
+              </div>
+              <ul class="card-text--section-child">
+                <li>SMA Negri 4 Pekanbaru</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fourth-wrapper">
+      <div class="section-title">
+        <h1 class="light-theme--text">Contact me</h1>
+      </div>
+      <div class="halfscreen fourth-page">
+        <div class="card light-theme--card">
+          <div class="card-body">
+            <div class="card-text">
+              <div class="title">
+                <h2 class="underlined--text">Email</h2>
+              </div>
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" class="contact-form" placeholder="john@example.com" />
+                <label for="subject">Subject</label>
+                <input id="subject" type="text" class="contact-form" placeholder="Partnership" />
+                <label for="message">Message</label>
+                <textarea id="message" type="text" class="contact-form" placeholder="Partnership"></textarea>
+                <a class="btn btn-disabled" href="#">Clear</a>
+                <a class="btn" href="#">Send</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card light-theme--card">
+          <div class="card-body">
+            <div class="card-text">
+              <div class="title">
+                <h2 class="underlined--text">Social Media</h2>
+              </div>
+              <div class="social-media">
+                  <a class="social-media--facebook" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                  <a class="social-media--twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a class="social-media--instagram" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-wrapper">
+      <div class="footer-content">
+        < /> with &hearts; by Daniel
+      </div>
+      <div class="footer-content">
+        &copy; 2021
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
